@@ -1,0 +1,32 @@
+.contact-form {
+  border-radius: 2px;
+  margin-top: 0.1%;
+  margin-left: 0.5px;
+  margin-bottom: 5%;
+  width: 70%;
+}
+
+.contact-form form {
+  padding: 1%;
+  width: 90%;
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+  margin-left: 1%;
+}
+
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.boxes {
+  border: 1px solid black;
+  border-radius: 8px;
+}

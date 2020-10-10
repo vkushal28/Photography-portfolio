@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?6py85u");
+  src: url("fonts/icomoon.eot?6py85u#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?6py85u") format("truetype"),
+    url("fonts/icomoon.woff?6py85u") format("woff"),
+    url("fonts/icomoon.svg?6py85u#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-size: large;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-social-facebook:before {
+  content: "\e991";
+}
+.icon-social-facebook-circular:before {
+  content: "\ea5a";
+}
+.icon-facebook2:before {
+  content: "\eac0";
+}
+.icon-facebook22:before {
+  content: "\eac1";
+}
+
+.icon-social-twitter:before {
+  content: "\e990";
+}
+.icon-social-twitter-circular:before {
+  content: "\ea57";
+}
+.icon-twitter2:before {
+  content: "\eac6";
+}
+
+.icon-instagram:before {
+  content: "\eac2";
+}
+
+.icon-social-linkedin:before {
+  content: "\e99c";
+}
+.icon-social-linkedin-circular:before {
+  content: "\ea59";
+}
+.icon-linkedin2:before {
+  content: "\eaf9";
+}
+.icon-linkedin22:before {
+  content: "\eafa";
+}
+
+.icon-social-github:before {
+  content: "\e99e";
+}
+.icon-social-github-circular:before {
+  content: "\ea07";
+}
+.icon-github:before {
+  content: "\eae0";
+}
+
+.icon-camera:before {
+  content: "\e96b";
+}
+.icon-camera-outline:before {
+  content: "\e9e2";
+}
+.icon-camera3:before {
+  content: "\e075";
+}
+.icon-camera4:before {
+  content: "\e90b";
+}
+
+.icon-lock-open:before {
+  content: "\e959";
+}
+.icon-pen2:before {
+  content: "\e90f";
+}
+
+.icon-mail:before {
+  content: "\e9c2";
+}
+.icon-mail5:before {
+  content: "\e066";
+}
+.icon-mail6:before {
+  content: "\e919";
+}
