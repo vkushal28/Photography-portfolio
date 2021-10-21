@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import  {createRef, usestate, useEffect, useRef, component } from "react";
 import "../About.css";
 import Categories from "./categories";
 // const Categories = React.lazy(() => import("./categories"));
@@ -58,7 +58,7 @@ class About extends Component {
     this.showModal = this.showModal.bind(this);
     this.hideModal = this.hideModal.bind(this);
 
-    this.myRef = React.createRef();
+    this.myRef = createRef();
     this.state = {
       showCat: false,
       // allCategoriesBase64: allCategoriesBase64Images,
