@@ -24,7 +24,7 @@ class Introduction extends Component {
                         <div className="desc">
                           <h1 style={{ color: "white" }}>
                             Hi! <br />
-                            I'm Kushal
+                            I'm Kushal Verma
                           </h1>
                           <p>
                             <a
@@ -52,7 +52,7 @@ class Introduction extends Component {
                         <div className="desc">
                           <h1 style={{ color: "white" }}>
                             PASSION:
-                            <br /> Photography
+                            <br /> Travel Photography
                           </h1>
                           <p>
                             <a
@@ -81,7 +81,7 @@ class Introduction extends Component {
                           <h1 style={{ color: "white" }}>
                             PROFESSION:
                             <br />
-                            CS Engineer
+                            Computer Science Engineer
                           </h1>
                           <p>
                             {/* <a
