@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component, useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import { Modal, Button } from "react-bootstrap";
 // const { Modal, Form, Button, Icon } = semanticUIReact;
@@ -82,19 +82,7 @@ const polaroid = {
   width: "184",
   height: "290",
   top: "30",
-  bottom: "30",
-  // overflow: "hidden",
-  // // width: "220",
-  // // height: "260",
-  // // position: "absolute",
-  // // display: "inline-block",
-  // display: "inline",
-  // border: "1px solid darkgrey",
-  // margin: "10",
-  // overflow: "hidden",
-  // // backgroundColor: "white",
-  // // padding: "15px 15px 60px 15px",
-  // boxShadow: "5px 10px 10px darkgrey",
+  bottom: "30"
 };
 
 const polaroidImages = {
@@ -115,15 +103,6 @@ const polaroidPara = {
   textAlign: "center",
   width: "100%",
 };
-
-// const imageInPolaroid = {
-//   // position: "relative",
-// };
-// const mainImage = {
-//   // position: "absolute",
-//   // width: "-webkit-fill-available",
-//   // height: "-webkit-fill-available",
-// };
 
 class Categories extends Component {
   constructor(props) {
